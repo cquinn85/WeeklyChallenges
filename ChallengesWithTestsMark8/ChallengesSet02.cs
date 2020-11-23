@@ -93,13 +93,13 @@ namespace ChallengesWithTestsMark8
 
         public int SumEvens(int[] numbers)
         {
-          if(numbers == null)
+          if(numbers == null)//checks for a null
             {
                 return 0;
             }
             var evenSum = 0;
 
-            for(int i = 0; i < numbers.Length; i++)
+            for(int i = 0; i < numbers.Length; i++) //checks if number is even
             {
                 if(numbers[i] % 2 == 0)
                 {
